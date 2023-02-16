@@ -60,5 +60,7 @@ plt.xticks([r + bar_width/2 for r in range(len(media_m))], x_labels)
 # Add a legend to the plot
 plt.legend()
 
+plt.savefig('mentalhealthsatisfacion.png')
+
 # Show the plot
 plt.show()
